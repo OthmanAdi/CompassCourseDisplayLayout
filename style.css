@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+/*Star(universal) Operator*/
+* { /* <== Selector*/
+    margin: 0; /*<== Properties aka.Superpowers*/
+    padding: 0; /*<== Properties aka.Superpowers*/
+    font-family: 'Bungee Shade', cursive;
+}
+
+.mainContainer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    height: 100vh;
+}
+
+.item {
+    color: chocolate;
+}
+
+.item.head {
+    background-color: #646FD4;
+    grid-column: 1 / span 12;
+    grid-row: 1 / span 1;
+}
+
+.item.nav {
+    background-color: #DBDFFD;
+    grid-column: 1 / span 12;
+    grid-row: 2 / span 1;
+}
+
+.item.foo {
+    background-color: #99C4C8;
+    grid-column: 1 / span 12;
+    grid-row: 12 / span 1;
+}
+
+.item.simu {
+    background-color: #EEE4AB;
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 9;
+}
+
+.item.ads {
+    background-color: #F9CEEE;
+    grid-column: 11 / span 2;
+    grid-row: 3 / span 9;
+}
+
+.item.main{
+    background-color: #e5eeab;
+    grid-column: 3 / span 8;
+    grid-row: 3 / span 9;
+}
